@@ -10,10 +10,6 @@ labels:
   - WOD
 ---
 
-# <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
-
-#*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
-
 ## New to JavaScript
 
 I am completely new to programming in JavaScript. Learning a new language is always a little anxiety inducing because usually I feel like I am just getting the hang of the language I was learning before when classes introduce a new language. It is always a welcomed challenge though because I enjoy learning new things and challenging myself. 
