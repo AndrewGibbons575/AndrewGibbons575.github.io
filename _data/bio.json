@@ -1,35 +1,35 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Andrew Gibbons",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
+    "picture": "https://github.com/andypandy575.png",
+    "email": "agibbons@hawaii.edu",
     "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "website": "https://andypandy575.github.io",
+    "summary": "I am studying for a B.S. in Mechanical Engineering in the Department of Engineering at the University of Hawaii. I am also pursuing a minor in Computer Science from the department of Information and Computer Sciences at the University of Hawaii. I previously earned a B.S. in Natural Resources and Environmental Management from the College of Tropical Agriculture and Human Resources at the University of Hawaii. I expect to graduate in Spring, 2025.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "andypandy575", "url": "http://github.com/andypandy575" },
+      { "network": "linkedin", "username": "Andrew Gibbons", "url": "http://linkedin.com/in/andrew-gibbons575" },
+      //{ "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
+      { "network": "instagram", "username": "long.armed.ape", "url": "http://instagram.com/long.armed.ape/" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
+    { "name": "Sustainability Engineering" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Environmental Conservation" },
     { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Hydrofoiling" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "TI LaunchPad" ]
     }
   ],
   "education": [
