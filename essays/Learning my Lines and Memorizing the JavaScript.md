@@ -1,4 +1,4 @@
----
+--- 
 layout: essay
 type: essay
 title: "Learning my Lines and Memorizing the JavaScript"
