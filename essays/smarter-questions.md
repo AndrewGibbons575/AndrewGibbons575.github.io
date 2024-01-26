@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smartQuest">
+<img width="300px" class="rounded float-start pe-4" src="../img/downloadSmart.jpg">
 
 ## So what is the deal with questions?
 
