@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/downloadSmart.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/downloadSmart.jpg">
 
 ## So what is the deal with questions?
 
@@ -25,11 +25,16 @@ Here is an example of a good question, lets examine.
 ```
 Q: Why don't DBMS's support ASSERTION?
 
-So I recently learned about ASSERTION in my databases course, and my prof noted that major databases don't support it, even though it is in the SQL-92 standard. I tried googling to find out why, but there doesn't seem to be any discussion on the topic.
+So I recently learned about ASSERTION in my databases course, and my prof noted that major databases don't support it,
+even though it is in the SQL-92 standard. I tried googling to find out why, but there doesn't seem to be any discussion on the
+topic.
 
-So, why isn't ASSERTION supported by the vast majority of relational database packages? Is it soley a performance issue or is there something intrinsically hard about it?
+So, why isn't ASSERTION supported by the vast majority of relational database packages? Is it soley a performance
+issue or is there something intrinsically hard about it?
 
-If you can, please note any database packages that implement it as well (example: if there's an academic/teaching DB). Also, why is there so little discussion on the issue; it's not even mentioned in the Wikipedia page for SQL or SQL-92) But answer the main question first, or answer in comments.
+If you can, please note any database packages that implement it as well (example: if there's an academic/teaching DB).
+Also, why is there so little discussion on the issue; it's not even mentioned in the Wikipedia page for SQL or SQL-92)
+But answer the main question first, or answer in comments.
 
 I'm not looking for how to implement it with triggers or anything else.
 ```
@@ -39,25 +44,54 @@ Here is the top response:
 ```
 There are four levels of constraint: column-level, row-level, table-level and schema-level.
 
-A table-level could, for example, involve a target table other than the source table on which it was declared but only gets checked when the source table changes. In theory a schema-level constraint would be checked for every change in every table in the schema but in practise the optimizer would be able to detect changes in a more granular way; consequently, if your DBMS had support for schema-level constraint then you wouldn't find much use for table-level constraints in practise.
+A table-level could, for example, involve a target table other than the source table on which it was declared but only gets
+checked when the source table changes. In theory a schema-level constraint would be checked for every change in every table
+in the schema but in practise the optimizer would be able to detect changes in a more granular way; consequently, if your
+DBMS had support for schema-level constraint then you wouldn't find much use for table-level constraints in practise.
 
-No current SQL product supports schema-level constraints i.e. CREATE ASSERTION. Apparently Rdb did support it when it was looked after by DEC but that is no longer the case. -- UPDATE: in a private message I was advised that Sybase's SQL Anywhere supports CREATE ASSERTION but with serious errors that allow such constraints sometimes to be violated!
+No current SQL product supports schema-level constraints i.e. CREATE ASSERTION. Apparently Rdb did support it when it was
+looked after by DEC but that is no longer the case. -- UPDATE: in a private message I was advised that Sybase's SQL Anywhere
+supports CREATE ASSERTION but with serious errors that allow such constraints sometimes to be violated!
 
-The only SQL-like product I've used that currently supports subqueries in CHECK constraints, which enables table-level constraints, is the Access database engine (ACE, Jet, whatever). It has issues, though. First, there is not support for SQL-92 functionality (or equivalent) to defer constraint checking. Second, table-level constraints are checked for each row affected, rather than when the statement completes as required by the SQL-92 Standard. Needless to say, the workaround is very clunky e.g. drop the constraint and in doing so lock the table, execute the update, recreate the constraint. Schema-level constraints, arguably achievable by adding the same constraint to all the tables it involves, is virtually unworkable.
+The only SQL-like product I've used that currently supports subqueries in CHECK constraints, which enables table-level
+constraints, is the Access database engine (ACE, Jet, whatever). It has issues, though. First, there is not support for
+SQL-92 functionality (or equivalent) to defer constraint checking. Second, table-level constraints are checked for each row
+affected, rather than when the statement completes as required by the SQL-92 Standard. Needless to say, the workaround is
+very clunky e.g. drop the constraint and in doing so lock the table, execute the update, recreate the constraint. Schema-level
+constraints, arguably achievable by adding the same constraint to all the tables it involves, is virtually unworkable.
 
-Possibly for these reasons, the Access Team have never publicized its CHECK constraint functionality at all beyond the initial announcements for Jet 4.0 (it remains missing from the Access Help, for example). All that said, for intra-table constraints (e.g. a sequenced key in a valid-state 'history' temporal table) the functionality works well, especially when you consider that Access only got trigger-like functionality (not SQL based, though) last year.
+Possibly for these reasons, the Access Team have never publicized its CHECK constraint functionality at all beyond the initial
+announcements for Jet 4.0 (it remains missing from the Access Help, for example). All that said, for intra-table constraints
+(e.g. a sequenced key in a valid-state 'history' temporal table) the functionality works well, especially when you consider that
+Access only got trigger-like functionality (not SQL based, though) last year.
 
-SQL of course has UNIQUE constraints and referential integrity constraints that are of course table-level but these are special cases. Therefore, all constraints you will encounter 'in the wild' will be either colum- or row-level.
+SQL of course has UNIQUE constraints and referential integrity constraints that are of course table-level but these are special
+cases. Therefore, all constraints you will encounter 'in the wild' will be either colum- or row-level.
 
-Do be aware with MySQL that, although using CHECK() in SQL DDL will parse without error, it will have no effect. How users can tolerate a SQL product with no CHECK constraints at all is beyond me! PostgreSQL has a excellent constraints model, hint hint :)
+Do be aware with MySQL that, although using CHECK() in SQL DDL will parse without error, it will have no effect. How users can
+tolerate a SQL product with no CHECK constraints at all is beyond me! PostgreSQL has a excellent constraints model, hint hint :)
 
-So why are inter-table constraints so rarely supported? One reason must be due to historical circumstances. As @gbn correctly identifies (under the title Concurrency), the Sybase/SQL Server family of SQL implementations is based on a model that cannot cope with inter-table constraint checking and that's not something that is likely to ever change.
+So why are inter-table constraints so rarely supported? One reason must be due to historical circumstances. As @gbn correctly
+identifies (under the title Concurrency), the Sybase/SQL Server family of SQL implementations is based on a model that cannot
+cope with inter-table constraint checking and that's not something that is likely to ever change.
 
-Consider looking at this the other way around: if you were creating a SQL product today, would you include CREATE ASSERTION? If you did, you would certainly have to also implement DEFERRABLE constraints (even though multiple assignment is arguably the better model). But you would be able to draw on a lot more research and experience if you went down the route of building a 'traditional' optimizer. And perhaps you'd find there is no commercial demand for schema-level constraints (if MySQL can get anyway without CHECK constraints...) If PostgreSQL doesn't do it, I don't think anyone ever will.
+Consider looking at this the other way around: if you were creating a SQL product today, would you include CREATE ASSERTION?
+If you did, you would certainly have to also implement DEFERRABLE constraints (even though multiple assignment is arguably the
+better model). But you would be able to draw on a lot more research and experience if you went down the route of building a
+'traditional' optimizer. And perhaps you'd find there is no commercial demand for schema-level constraints (if MySQL can get
+anyway without CHECK constraints...) If PostgreSQL doesn't do it, I don't think anyone ever will.
 
-I think the real show stopper is that most industrial-strength products have already developed trigger functionality that allows users to write 'constraints' of arbitrary complexity (plus can a lot more e.g. send an email to tell something happened). Sure, they are procedural rather than declarative, the coder has to do a lot of extra work that the system would take care of with true constraints, and the performance tends to be not so great. But the fact is they existing in real products today and do provide a 'get out of jail free card' card for vendors. Why should they bother implementing worthy features if customers are not banging the table for them?
+I think the real show stopper is that most industrial-strength products have already developed trigger functionality that allows
+ users to write 'constraints' of arbitrary complexity (plus can a lot more e.g. send an email to tell something happened). Sure,
+they are procedural rather than declarative, the coder has to do a lot of extra work that the system would take care of with true
+constraints, and the performance tends to be not so great. But the fact is they existing in real products today and do provide a
+'get out of jail free card' card for vendors. Why should they bother implementing worthy features if customers are not banging the
+table for them?
 
-As regards academic/teaching langauges, as @Damien_The_Unbeliever correctly identifies, a Tutorial D CONSTRAINT are always 'schema'-level, hence allow for global constraints of arbitrary conplexity by definition. If you are looking to design your own DBMS(!!) with this kind of functionality, you should consider implementing the D specification while using an existing SQL DBMS for storage, as Dataphor have done.
+As regards academic/teaching langauges, as @Damien_The_Unbeliever correctly identifies, a Tutorial D CONSTRAINT are always
+'schema'-level, hence allow for global constraints of arbitrary conplexity by definition. If you are looking to design your own
+DBMS(!!) with this kind of functionality, you should consider implementing the D specification while using an existing SQL DBMS
+for storage, as Dataphor have done.
 
 ```
  
@@ -82,12 +116,17 @@ However, this instance is not accepted. GHC complains with the following error m
 error:
   • Illegal type synonym family application in instance: Fam a
   • In the instance declaration for ‘Multi (Maybe a) (Fam a)’
-Fortunately, there is a workaround. I can perform a usual trick for moving a type out of the instance head and into an equality constraint:
+Fortunately, there is a workaround. I can perform a usual trick for moving a type out of the instance head and into an
+equality constraint:
 
 instance (b ~ Fam a) => Multi (Maybe a) b
-This instance is accepted! However, I got to thinking, and I started to wonder why this transformation could not be applied to all instances of Multi. After all, doesn’t the functional dependency imply that there can only be one b per a, anyway? In this situation, it seems like there is no reason that GHC should reject my first instance.
+This instance is accepted! However, I got to thinking, and I started to wonder why this transformation could not be applied
+to all instances of Multi. After all, doesn’t the functional dependency imply that there can only be one b per a, anyway? In
+this situation, it seems like there is no reason that GHC should reject my first instance.
 
-I found GHC Trac ticket #3485, which describes a similar situation, but that typeclass did not involve a functional dependency, so the ticket was (rightfully) closed as invalid. In my situation, however, I think the functional dependency avoids the problem described in the ticket. Is there anything I’m overlooking, or is this really an oversight/missing feature in GHC?
+I found GHC Trac ticket #3485, which describes a similar situation, but that typeclass did not involve a functional dependency,
+so the ticket was (rightfully) closed as invalid. In my situation, however, I think the functional dependency avoids the
+problem described in the ticket. Is there anything I’m overlooking, or is this really an oversight/missing feature in GHC?
 ```
 This question got no replies and it was asked over 6 years ago. An example of the reader's frustration can be seen in the following comment: 
 
