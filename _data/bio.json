@@ -28,46 +28,57 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Excel", "ArcGIS" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Mechanical Engineering, minor in Computer Science (expected Spring, 2025)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2022-09-01",
       "endDate": "Present",
       "courses": [
       ]
-    }
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Natural Resources and Environmental Management",
+      "studyType": "B.S.",
+      "startDate": "2017-09-01",
+      "endDate": "2021-05-15",
+      "courses": [
+      ]
+    } 
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Army Natural Resources Program, Oahu",
+      "position": "Natural Resourse Technician",
+      "website": "https://manoa.hawaii.edu/hpicesu/dpw.htm",
+      "startDate": "2021-06-01",
+      "endDate": "2022-05-31",
+      "summary": "Field team member tasked protecting native and endangered species.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Monitor, maintain, protect, and grow endangered species populations.",
+        "Expand native forest coverage accross Oahu.",
+        "Eradicate invasive species."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Snail Extinction Protection Progran",
+      "position": "Lab Assistant",
+      "website": "https://dlnr.hawaii.gov/ecosystems/sepp/",
+      "startDate": "2019-01-05",
+      "endDate": "2021-05-15",
+      "summary": "Care for some of the rarest gastropod species on the planet.",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Clean, feed, monitor, and care for endangered snail species endemic to Oahu.",
+        "Maintain laboratory equipment and lab cleanliness."
       ]
     }
   ],
+  /*
   "volunteer": [
     {
       "organization": "Center for Renewable Energy and Island Sustainability",
@@ -109,6 +120,7 @@
       "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
+  */
   "references": [
     {
       "name": "Available upon request"
