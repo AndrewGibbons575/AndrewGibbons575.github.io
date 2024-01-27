@@ -1,0 +1,129 @@
+{
+  "basics": {
+    "name": "Andrew Gibbons",
+    "label": "Student",
+    "picture": "https://github.com/andypandy575.png",
+    "email": "agibbons@hawaii.edu",
+    "phone": "808-333-4444",
+    "website": "https://andypandy575.github.io",
+    "summary": "I am studying for a B.S. in Mechanical Engineering in the Department of Engineering at the University of Hawaii. I am also pursuing a minor in Computer Science from the department of Information and Computer Sciences at the University of Hawaii. I previously earned a B.S. in Natural Resources and Environmental Management from the College of Tropical Agriculture and Human Resources at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "andypandy575", "url": "http://github.com/andypandy575" },
+      { "network": "linkedin", "username": "Andrew Gibbons", "url": "http://linkedin.com/in/andrew-gibbons575" },
+      { "network": "instagram", "username": "long.armed.ape", "url": "http://instagram.com/long.armed.ape/" }
+    ]
+  },
+  "interests": [
+    { "name": "Sustainability Engineering" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Environmental Conservation" },
+    { "name": "Robotics" },
+    { "name": "Hydrofoiling" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Excel", "ArcGIS" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Mechanical Engineering, minor in Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2022-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Natural Resources and Environmental Management",
+      "studyType": "B.S.",
+      "startDate": "2017-09-01",
+      "endDate": "2021-05-15",
+      "courses": [
+      ]
+    } 
+  ],
+  "work": [
+    {
+      "company": "Army Natural Resources Program, Oahu",
+      "position": "Natural Resourse Technician",
+      "website": "https://manoa.hawaii.edu/hpicesu/dpw.htm",
+      "startDate": "2021-06-01",
+      "endDate": "2022-05-31",
+      "summary": "Field team member tasked protecting native and endangered species.",
+      "highlights": [
+        "Monitor, maintain, protect, and grow endangered species populations.",
+        "Expand native forest coverage accross Oahu.",
+        "Eradicate invasive species."
+      ]
+    },
+    {
+      "company": "Snail Extinction Protection Progran",
+      "position": "Lab Assistant",
+      "website": "https://dlnr.hawaii.gov/ecosystems/sepp/",
+      "startDate": "2019-01-05",
+      "endDate": "2021-05-15",
+      "summary": "Care for some of the rarest gastropod species on the planet.",
+      "highlights": [
+        "Clean, feed, monitor, and care for endangered snail species endemic to Oahu.",
+        "Maintain laboratory equipment and lab cleanliness."
+      ]
+    }
+  ],
+  /*
+  "volunteer": [
+    {
+      "organization": "Center for Renewable Energy and Island Sustainability",
+      "website": "http://manoa.hawaii.edu/reis",
+      "position": "Software Developer",
+      "startDate": "2016-01-01",
+      "endDate": "Present",
+      "summary": "Lead developer for weather sensing project",
+      "highlights": [
+        "Design firmware for distributed weather sensor network",
+        "Maintain custom data collection and storage infrastructure"
+      ]
+    },
+    {
+      "organization": "",
+      "website": "",
+      "position": "Professional organization involvement",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Chair, ACM Manoa, 2016-Present",
+        "Member, IEEE Student Branch, 2014-Present",
+        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "B+ Scholarship",
+      "date": "2013-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+    },
+    {
+      "title": "First place",
+      "date": "2015",
+      "awarder": "University of Hawaii Micromouse Competition",
+      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+    }
+  ],
+  */
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
