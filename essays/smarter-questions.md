@@ -19,11 +19,11 @@ From a young age we are told to always ask questions whenever we are confused. H
 
 ## An example of a smart question:
 
-Stack Overflow is a wonderful place for having your questions answered by seasoned professionals, but it can also be embarassing if you don't do your due diligence and follow the rules of asking a good question.
+Stack Overflow is an excellent place for having your questions answered by seasoned professionals, but it can also be embarassing if you don't do your due diligence and follow the rules of asking a good question.
 Here is an example of a good question, lets examine.
 
 ```
-Q: Why don't DBMS's support ASSERTION?
+Q: Why don't DBMS's support ASSERTION? 
 
 So I recently learned about ASSERTION in my databases course, and my prof noted that major databases don't support it,
 even though it is in the SQL-92 standard. I tried googling to find out why, but there doesn't seem to be any discussion on the
