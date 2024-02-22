@@ -11,8 +11,6 @@ labels:
   - Web Development
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/downloadSmart.jpg">
-
 ## Key differences between Bootstrap5 and raw HTML/CSS
 
 Bootstrap5 and CSS are both languages used to style web pages developed with HTML. On the surface level, CSS is native to HTML and may be used without loading additional files unlike Bootstrap. However, their differences run much deeper than this simple feature of how they load. These key differences become apparent in their abstraction level, responsiveness, browser compatibility, and customization.
@@ -31,7 +29,7 @@ Bootstrap 5 aims to provide consistent behavior and appearance across different 
 
 #### Bootstrap across Chrome and IE
 
-
+<img width="300px" class="rounded float-start pe-4" src="../img/frameworsk/downloadSmart.jpg">
 
 #### CSS across Chrome and IE
 
