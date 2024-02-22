@@ -30,11 +30,11 @@ Bootstrap 5 aims to provide consistent behavior and appearance across different 
 #### Bootstrap across Chrome and IE
 ##### Chrome
 
-<img width="300px" class="rounded float-start pe-4" src="..img/frameworsk/colorlib_chrome.png">
+<img width="300px" height="170px" class="rounded float-start pe-4" src="..img/frameworsk/colorlib_chrome.png">
 
 ##### IE
 
-<img width="300px" class="rounded float-start pe-4" src="..img/frameworsk/colorlib_IE.png">
+<img width="300px" height="170px" class="rounded float-start pe-4" src="..img/frameworsk/colorlib_IE.png">
 
 #### CSS across Chrome and IE
 
