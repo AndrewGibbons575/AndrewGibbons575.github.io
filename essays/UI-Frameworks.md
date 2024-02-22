@@ -29,6 +29,7 @@ Bootstrap 5 aims to provide consistent behavior and appearance across different 
 
 #### Bootstrap across Chrome and IE
 There is no difference between these pages designed in Bootstrap when displayed in Chrome and IE.
+
 ##### Chrome
 
 <img width="300px" height="170px" class="rounded float-start pe-4" src="../img/frameworsk/colorlib_chrome.png">
