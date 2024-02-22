@@ -28,8 +28,13 @@ Bootstrap 5 is designed with mobile-first responsiveness in mind. Its grid syste
 Bootstrap 5 aims to provide consistent behavior and appearance across different web browsers and devices. It handles cross-browser compatibility and vendor-prefixing internally, reducing the need for developers to write browser-specific CSS. CSS requires developers to consider browser compatibility issues and write vendor prefixes for certain CSS properties to ensure consistent rendering across different browsers.
 
 #### Bootstrap across Chrome and IE
+##### Chrome
 
-<img width="300px" class="rounded float-start pe-4" src="../img/frameworsk/downloadSmart.jpg">
+<img width="300px" class="rounded float-start pe-4" src="..img/frameworsk/colorlib_chrome.png">
+
+##### IE
+
+<img width="300px" class="rounded float-start pe-4" src="..img/frameworsk/colorlib_IE.png">
 
 #### CSS across Chrome and IE
 
