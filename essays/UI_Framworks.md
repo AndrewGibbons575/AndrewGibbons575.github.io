@@ -13,11 +13,35 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/downloadSmart.jpg">
 
-## Key differences between
+## Key differences between Bootstrap5 and raw HTML/CSS
 
-From a young age we are told to always ask questions whenever we are confused. However, unfortunately not everyone learns how to ask questions in an intelligent way. Even though the point of their question may be of value to the broader community, sometimes the way people phrase their dilemma causes them to seem unintelligent and their question irrelevant. Therefore, learning how to be conscious and intentional about how we phrase and seek out information can be vital to getting the support we need. 
+Bootstrap5 and CSS are both languages used to style web pages developed with HTML. On the surface level, CSS is native to HTML and may be used without loading additional files unlike Bootstrap. However, their differences run much deeper than this simple feature of how they load. These key differences become apparent in their abstraction level, responsiveness, browser compatibility, and customization.
 
-## An example of a smart question:
+### Abstraction level
+
+Bootstrap provides predesigned components such as navigation bars, buttons, forms, cards, modals, and more. These components come with predefined styles and behaviors, allowing developers to quickly build consistent and responsive user interfaces. On the other hand, CSS requires developers to define the styles for each element manually. While it offers more flexibility and control over the design, it also requires more time and effort to create and maintain stylesheets from scratch.
+
+### Responsiveness
+
+Bootstrap 5 is designed with mobile-first responsiveness in mind. Its grid system and components are built to adapt to different screen sizes and devices, ensuring a consistent user experience across desktops, tablets, and smartphones. While CSS can also be used to create responsive designs, developers need to write media queries and adjust stylesheets manually to achieve responsiveness.
+
+### Browser compatability
+
+Bootstrap 5 aims to provide consistent behavior and appearance across different web browsers and devices. It handles cross-browser compatibility and vendor-prefixing internally, reducing the need for developers to write browser-specific CSS. CSS requires developers to consider browser compatibility issues and write vendor prefixes for certain CSS properties to ensure consistent rendering across different browsers.
+
+#### Bootstrap across Chrome and IE
+
+
+
+#### CSS across Chrome and IE
+
+
+
+### Customization
+
+
+
+## My experience
 
 Stack Overflow is an excellent place for having your questions answered by seasoned professionals, but it can also be embarassing if you don't do your due diligence and follow the rules of asking a good question.
 Here is an example of a good question, lets examine.
