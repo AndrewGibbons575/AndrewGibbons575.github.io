@@ -33,10 +33,12 @@ There is no difference between these pages designed in Bootstrap when displayed 
 ##### Chrome
 
 <img width="300px" height="170px" class="rounded float-start pe-4" src="../img/frameworsk/colorlib_chrome.png">
+<br>
 
 ##### IE
 
 <img width="300px" height="170px" class="rounded float-start pe-4" src="../img/frameworsk/colorlib_IE.png">
+<br>
 
 #### CSS across Chrome and IE
 
