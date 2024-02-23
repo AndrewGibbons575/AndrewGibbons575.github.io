@@ -58,5 +58,4 @@ Bootstrap 5 offers customization options that allow developers to modify the def
 
 At first, Bootstrap5 seemed really daunting and cumbersome to learn-- and it still is. There are so many different classes and ways to edit the components. I was really intimidated by all of the new information that needed to be learned, and still am, but as I complete the practice WODs involving Bootstrap I am becoming more comfortable with the tools and structure. It actually makes a lot of sense and is simpler to use than CSS in the long run. As a result of this simplicity and Bootstrap’s ability to remain consistent across browsers and devices of different screen sizes, the framework is a great tool for software developers. Bootstrap is an efficient tool for one to use if they wish to save time on creating CSS style sheets and retain consistency in their product across different browsers. Overall, Bootstrap is well worth the headache needed to overcome the learning curve of using this framework. 
 
-##
 ChatGPT was used for researching the differences between Bootstrap and CSS.
