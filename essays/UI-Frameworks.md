@@ -32,13 +32,11 @@ There is no difference between these pages designed in Bootstrap when displayed 
 
 ##### Chrome
 
-<img width="300px" height="170px" class="rounded float-start pe-4" src="../img/frameworsk/colorlib_chrome.png">
-<br>
+<img width="300px" height="170px" class="rounded pe-4" src="../img/frameworsk/colorlib_chrome.png">
 
 ##### IE
 
-<img width="300px" height="170px" class="rounded float-start pe-4" src="../img/frameworsk/colorlib_IE.png">
-<br>
+<img width="300px" height="170px" class="rounded pe-4" src="../img/frameworsk/colorlib_IE.png">
 
 #### CSS across Chrome and IE
 
@@ -46,7 +44,7 @@ As you can see, the product reviews display in Chrome but do not display in IE.
 
 ##### Chrome
 
-<img width="300px" height="170px" class="rounded float-start pe-4" src="../img/frameworsk/wild_chrome.png">
+<img width="300px" height="170px" class="rounded pe-4" src="../img/frameworsk/wild_chrome.png">
 
 ##### IE
 
