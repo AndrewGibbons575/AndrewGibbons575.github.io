@@ -48,7 +48,7 @@ As you can see, the product reviews display in Chrome but do not display in IE.
 
 ##### IE
 
-<img width="300px" height="170px" class="rounded float-start pe-4" src="../img/frameworsk/wild_IE.png">
+<img width="300px" height="170px" class="rounded pe-4" src="../img/frameworsk/wild_IE.png">
 
 ### Customization
 
