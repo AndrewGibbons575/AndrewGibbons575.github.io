@@ -24,11 +24,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "Meteor/React", "CSS", "Bootstrap5" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Excel", "ArcGIS" ]
+      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Excel", "ArcGIS", "MatLab" ]
     }
   ],
   "education": [
