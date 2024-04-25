@@ -1,13 +1,13 @@
 --- 
 layout: essay
 type: essay
-title: "Learning my Lines and Memorizing the JavaScript"
+title: "Outter Worldly Design Patterns"
 # All dates must be YYYY-MM-DD format!
-date: 2024-01-16
-published: true
+date: 2024-04-125
+published: false
 labels:
-  - JavaScript
-  - WOD 
+  - Design Patterns
+  - Software design
 ---
 
 ## New to JavaScript
