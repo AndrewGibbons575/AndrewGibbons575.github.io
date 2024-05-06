@@ -18,16 +18,16 @@ I have used AI in class this semester in the following areas:
 
   1. Experience WODs e.g. E18
 
-  I never used AI for the experience WOD’s because I figured I would learn better if I just struggled through it myself and watched the walkthrough videos where 	 
-  necessary. 
+   I never used AI for the experience WOD’s because I figured I would learn better if I just struggled through it myself and watched the walkthrough videos where 	 
+   necessary. 
 
   2. In-class Practice WODs
 
-  AI was not used for the practice WODs because I used them as a gauge for knowing how close I was with the material and where I needed to study for the real thing.
+   AI was not used for the practice WODs because I used them as a gauge for knowing how close I was with the material and where I needed to study for the real thing.
 
   3. In-class WODs
 
-  When it came to the WODs I actually only used ChatGPT for the bootstrap and HTML WODs because it was good at creating code that was directly implementable with only 	 
+   When it came to the WODs I actually only used ChatGPT for the bootstrap and HTML WODs because it was good at creating code that was directly implementable with only 	 
   minor tweaks needed. This was helpful in scenarios where time was tight and I did not know all of the syntax or structure necessary for completing the WOD. I just had to 
   know how to implement the code it gave me.
 
