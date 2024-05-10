@@ -4,7 +4,7 @@ type: essay
 title: "UI Frameworks: Useful or a Waste of Time?"
 # All dates must be YYYY-MM-DD format!
 date: 2024-02-22
-published: true
+published: false
 labels:
   - Bootstrap5
   - HTML/CSS
