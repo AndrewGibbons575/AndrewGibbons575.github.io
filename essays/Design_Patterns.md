@@ -4,7 +4,7 @@ type: essay
 title: "The Power of the Pattern in the Palm of Your Hand"
 # All dates must be YYYY-MM-DD format!
 date: 2024-04-25
-published: true
+published: false
 labels:
   - Design Patterns
   - Software design
