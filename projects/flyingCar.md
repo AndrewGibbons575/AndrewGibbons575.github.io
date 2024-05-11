@@ -4,7 +4,7 @@ type: project
 image: img/flyingCar/flyingCar.jpg
 title: "Flying Car"
 date: 2024
-published: true
+published: false
 labels:
   - flying car
   - UAV
