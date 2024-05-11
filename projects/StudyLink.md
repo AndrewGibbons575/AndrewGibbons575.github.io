@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/StudyLink/SLlogo.jpg
+image: img/StudyLink/SLlogo.png
 title: "StudyLink"
 date: 2024
 published: true
