@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/StudyLink/SLlogo.jpg
 title: "StudyLink"
 date: 2024
 published: true
