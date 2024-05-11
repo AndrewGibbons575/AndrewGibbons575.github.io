@@ -13,27 +13,33 @@ summary: "My team developed a website that allows students to organize colaborat
 ---
 
 <div class="text-center p-4">
-  <img src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="600px" src="../img/StudyLink/LandingSL.png" class="img-thumbnail" >
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+  For the final project in ICS 314: Intro to Software Engineering, my team developed a web application called StudyLink using the Meteor with React framework. StudyLink enables students to create and advertise study sessions which for classes they need help in or want to give help for. Upon registering an account, students may view study sessions scheduled by other students which they might like to attend. If there are no sessions on their desired topic or the timing does not work out for them, they may also create their own study session. When registering for or creating a study session, the student has the option to select "Grasshopper" or "Sensei". Grasshoppers are students which are currently taking a course and need help with the material. Senseis are students which have already taken the course and are willing to provide help to the Grasshoppers. The primary goal of the website is to match Senseis up with Grasshoppers so that collaborative learning may happen in an efficient way. All of the study sessions are run out ofthe ICS Space on the 3rd floor of POST as this website was primarily developed for ICS majors. However, it could easily be adapted and expanded to accompany all majors at UH. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+This is what the page looks like where students can view and register for study sessions:
+<div class="text-center p-4">
+  <img width="600px" src="../img/StudyLink/LandingSL.png" class="img-thumbnail" >
+</div>
 
-Here is some code that illustrates how we read values from the line sensors:
+  In order to incentivise the participation of Grasshoppers and Senseis, a points system was devised which grants students points when they attend a session. Three points are awarded to Senseis and two points are awarded to Grasshoppers. Points are accumilated over a semester and a leaderboard is used to show users who has the most points. If this website became available for public use, prizes would be awarded at the end of the semester to the students who use the service the most.
 
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+  I spearheaded the implementation of the leaderboard and scoring system for this class. Here is a snipped of code which sorted the list of people in decending order according to the number of points they have associated with their profile:
+
+```js
+<tbody>
+  {profiles
+    .slice() // Create a shallow copy of the array to avoid mutating the original array
+    .sort((a, b) => b.score - a.score) // Sort the array based on the score property
+    .map((score, index) => (
+      <PersonItem key={`${score._id}_${index}`} profile={score} rank={index + 1} />
+    ))}
+</tbody>
 ```
+The resulting leaderboard can be seen below:
+<div class="text-center p-4">
+  <img width="600px" src="../img/StudyLink/LeaderboardSL.png" >
+</div>
 
 You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
