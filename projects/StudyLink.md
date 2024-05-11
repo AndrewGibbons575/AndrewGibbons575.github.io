@@ -44,3 +44,5 @@ The resulting leaderboard can be seen below:
 
 
 You can view the website yourself here: [StudyLink](https://studylink.site/).
+
+The GitHub repository for the website may be found here: [StudyLink GitHub Repository](https://github.com/phoenix-codecrafters/StudyLink).
