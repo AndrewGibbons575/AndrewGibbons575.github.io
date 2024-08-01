@@ -83,8 +83,8 @@
   "references": [
     {
       "name": "Shep Nelson",
-      "email": "shepherdn@goodfellowbros.com",
-      "phone": "808-633-6714"
+      "reference": "shepherdn@goodfellowbros.com",
+      "reference": "808-633-6714"
     }
   ]
 }
