@@ -16,6 +16,7 @@
   },
   "interests": [
     { "name": "Sustainability Engineering" },
+    { "name": "Data Science" },
     { "name": "Artificial Intelligence" },
     { "name": "Environmental Conservation" },
     { "name": "Robotics" },
@@ -24,11 +25,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "Meteor/React", "CSS", "Bootstrap5" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "Meteor/React", "CSS", "SQL" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Excel", "ArcGIS", "MatLab" ]
+      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Excel", "ArcGIS", "MatLab", "PowerBI", "Azure Data Studio" ]
     }
   ],
   "education": [
@@ -53,6 +54,19 @@
   ],
   "work": [
     {
+      "company": "Goodfellow Bros. Inc.",
+      "position": "Data Science Intern",
+      "website": "https://goodfellowbros.com/",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-16",
+      "summary": "In this position I looked at identifying trends in equipment breakdown from the company's maintenance logs. This information can be used to implement preventative maintenance measures in the future.",
+      "highlights": [
+        "Gained experience working with real world databases and the challenges that come with imperfect data collection.",
+        "As this was my own individual summer project, I got perform all aspects of the job from data acquisition, to data cleasing, to data analysis, to my reccomended plan of action.",
+        "Creating a visual representation of my work in PowerBI and presenting it to stakeholders."
+      ]
+    },
+    {
       "company": "Army Natural Resources Program, Oahu",
       "position": "Natural Resourse Technician",
       "website": "https://manoa.hawaii.edu/hpicesu/dpw.htm",
@@ -73,7 +87,7 @@
       "endDate": "2021-05-15",
       "summary": "Care for some of the rarest gastropod species on the planet.",
       "highlights": [
-        "Clean, feed, monitor, and care for endangered snail species endemic to Oahu.",
+        "Clean, feed, monitor, and care for endangered snail species.",
         "Maintain laboratory equipment and lab cleanliness."
       ]
     }
