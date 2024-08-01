@@ -4,7 +4,7 @@
     "label": "Student",
     "picture": "https://github.com/AndrewGibbons575.png",
     "email": "agibbons@hawaii.edu",
-    "phone": "808-333-4444",
+    "phone": "808-214-4159",
     "website": "https://AndrewGibbons575.github.io",
     "summary": "I am currenly working towards a B.S. in Mechanical Engineering with a minor in Computer Science at the University of Hawaii at Manoa. I have previously earned a B.S. in Natural Resources and Environmental Management from the College of Tropical Agriculture and Human Resources at the University of Hawaii. I expect to graduate in Spring, 2025.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
@@ -63,7 +63,7 @@
       "highlights": [
         "Gained experience working with real world databases and the challenges that come with imperfect data collection.",
         "As this was my own individual summer project, I got perform all aspects of the job from data acquisition, to data cleasing, to data analysis, to my reccomended plan of action.",
-        "Creating a visual representation of my work in PowerBI and presenting it to stakeholders."
+        "Created a visual representation of my work in PowerBI and presented it to stakeholders."
       ]
     },
     {
