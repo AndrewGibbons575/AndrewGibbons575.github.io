@@ -233,9 +233,11 @@ layout: home
         <p class="m-0">
           {% for entry in site.data.bio.references %}
             {{ entry.name }}
-            {% if entry.reference and entry.reference.size > 0 %}
+            {% if entry.email and entry.email.size > 0 %}
               <em>{{ entry.email }}</em>
-              <b></b>
+            {% endif %}
+            <br>
+            {% if entry.phone and entry.phone.size > 0 %}
               <em>{{ entry.phone }}</em>
             {% endif %}
           {% endfor %}
