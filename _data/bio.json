@@ -29,7 +29,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Excel", "ArcGIS", "MatLab", "PowerBI", "Azure Data Studio" ]
+      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Excel", "ArcGIS", "MatLab", "PowerBI", "Azure Data Studio", "OnShape", "SolidWorks" ]
     }
   ],
   "education": [
@@ -54,6 +54,31 @@
   ],
   "work": [
     {
+      "company": "Renewable Energy, Industrial Automation, and Precision Engineering (RIP) Lab | University of Hawaii",
+      "position": "Undergraduate Research Assistant",
+      "website": "http://rip.eng.hawaii.edu/",
+      "startDate": "2024-08-26",
+      "endDate": "Present",
+      "summary": "At the RIP lab I work on optical design and component integration for a fast luorescence laser and sensor system intended for marine application which will be tested by the US Navy.",
+      "highlights": [
+        "Work with project managers, researchers and stakeholders on ensuring designs meet intended goals and desires.",
+        "Utilize OnShape to collaboratively develop 3D models and conduct FEA analysis."
+      ]
+    },
+    {
+      "company": "University of Hawaii",
+      "position": "Project Manager",
+      "website": "https://poke-bowl-protectors.github.io/disinformation-hub/",
+      "startDate": "2024-08-26",
+      "endDate": "Present",
+      "summary": "In this position I managed and worked with a group of fellow students as we attempted to create a tool for increasing high school student's resilience to mis/disinformation online.",
+      "highlights": [
+        "Conducted interviews for 50 stakeholders to understand their pain points so that a product could be catered to them.",
+        "Led technical research and design of an MVP",
+        "Helped develop a website which allows users to understand the kinds of mis/disinformation threats which are online in a gamified fashion."
+      ]
+    },
+    {
       "company": "Goodfellow Bros. Inc.",
       "position": "Data Science Intern",
       "website": "https://goodfellowbros.com/",
@@ -72,11 +97,11 @@
       "website": "https://manoa.hawaii.edu/hpicesu/dpw.htm",
       "startDate": "2021-06-01",
       "endDate": "2022-05-31",
-      "summary": "Field team member tasked protecting native and endangered species.",
+      "summary": "Contracted by the Army to manage endangered species and conduct forest restoration accross Oahu.",
       "highlights": [
         "Monitor, maintain, protect, and grow endangered species populations.",
         "Expand native forest coverage accross Oahu.",
-        "Eradicate invasive species."
+        "Conduct surveys and write technical reports on findings."
       ]
     }
   ],
