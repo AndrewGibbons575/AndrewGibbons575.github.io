@@ -15,11 +15,11 @@
     ]
   },
   "interests": [
-    { "name": "Sustainability Engineering" },
+    { "name": "Sustainability" },
+    { "name": "Engineering" },
     { "name": "Data Science" },
     { "name": "Artificial Intelligence" },
     { "name": "Environmental Conservation" },
-    { "name": "Robotics" },
     { "name": "Hydrofoiling" }
   ],
   "skills": [
